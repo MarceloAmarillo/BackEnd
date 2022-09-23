@@ -19,10 +19,10 @@ import org.springframework.stereotype.Component;
 public class JwtProvider {
     private final static Logger logger= LoggerFactory.getLogger(JwtProvider.class);
     
-    @Value("${jwt.secret")
+    @Value("${jwt.secret}")
     private String secret;
     
-    @Value("${jwt.expiration")
+    @Value("${jwt.expiration}")
     private int expiration;
     
     
